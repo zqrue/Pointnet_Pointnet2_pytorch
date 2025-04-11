@@ -161,7 +161,6 @@ def main(args):
     log_string('Class avg mIOU is: %.5f' % test_metrics['class_avg_iou'])
     log_string('Inctance avg mIOU is: %.5f' % test_metrics['inctance_avg_iou'])
 
-
 if __name__ == '__main__':
     args = parse_args()
     main(args)
